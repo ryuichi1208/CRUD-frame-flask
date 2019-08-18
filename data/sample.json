@@ -1,0 +1,21 @@
+{
+  "Book1" : {
+    "title": "AAA",
+    "Autohr" : [ "tarosu", "yamada", "Bukoku"],
+    "data": "2018/12/12",
+    "price": 1200
+  },
+  "Book2" : {
+    "title": "AAA",
+    "Autohr" : [ "tarosu", "yamada", "Bukoku"],
+    "data": "2018/12/12",
+    "price": 1200
+  },
+  "Book3" : {
+    "title": "AAA",
+    "Autohr" : [ "tarosu", "yamada", "Bukoku"],
+    "data": "2018/12/12",
+    "price": 1200
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "Book1" : {
+    "title": "鬼",
+    "Autohr" : [ "tarosu", "yamada", "Bukoku"],
+    "data": "2018/12/12",
+    "price": 1200
+  },
+  "Book2" : {
+    "title": "悪魔",
+    "Autohr" : [ "tarosu", "yamada", "Bukoku"],
+    "data": "2018/12/12",
+    "price": 1200
+  },
+  "Book3" : {
+    "title": "地獄",
+    "Autohr" : [ "tarosu", "yamada", "Bukoku"],
+    "data": "2018/12/12",
+    "price": 1200
+  }
+}
+
