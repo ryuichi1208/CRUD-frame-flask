@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vue TEST</title>
+  <!-- Vue.js を読み込む -->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+
+<style>
+#app-2 .error {
+  color: red;
+}
+</style>
+<div id="app-2">
+  <input type="text" v-model="message">
+  <div class="error" v-if="error.require">必須項目です。</div>
+  <div class="error" v-if="error.tooLong">長すぎます。</div>
+
+  <button type="button" name="aaa" value="aaa">
+    <font size="2">ここを</font><font size="5" color="#333399">押してね</font>
+  </button>
+
+</div>
+<script>
+var app2 = new Vue({
+  el: '#app-2',
+  watch: {
+    message: function(newVal, oldVal) {
+      this.error.require = (newVal.length < 1) ? true : false;
+      this.error.tooLong = (newVal.length > 5) ? true : false;
+    }
+  },
+  data: {
+    message: 'Hello',
+    error: {
+      require: false,
+      tooLong: false
+    }
+  }
+})
+</script>
+
+</body>
+</html>
